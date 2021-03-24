@@ -674,7 +674,7 @@ h4 {
   }
 
   .logo_big {
-    max-width: 90%;
+    max-width: 95%;
     height: auto;
     margin: 0 auto;
   }
@@ -682,7 +682,7 @@ h4 {
   .left {
     display: flex;
     flex-direction: column;
-    margin: 0 auto 20px auto;
+    margin: 30px auto 20px auto;
   }
 
   .minicontainer p {
