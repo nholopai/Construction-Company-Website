@@ -573,6 +573,7 @@ h4 {
 }
 
 .fa-linkedin {
+  cursor: pointer;
   font-size: 40px;
   color: #333;
   border: none;
