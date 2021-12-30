@@ -587,10 +587,24 @@ h4 {
   color: #be0606;
 }
 
+.fa-arrow-alt-circle-up {
+  visibility: hidden;
+  cursor: pointer;
+  font-size: 35px;
+  position: fixed;
+  z-index: 1000;
+  bottom: 10px;
+  right: 10px;
+}
+
 /* Media Queries */
 
 /* Mobile */
 @media (max-width: 640px) {
+  .fa-arrow-alt-circle-up {
+    visibility: unset;
+  }
+
   nav .navigation_bar {
     background-color: #ebe7e7;
     display: flex;
