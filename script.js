@@ -23,4 +23,5 @@ const upButton = document.getElementById("up");
 upButton.addEventListener("click", () => {
   document.body.scrollTop = 0; // Safari
   document.documentElement.scrollTop = 0; // Chrome, Firefox etc.
+  behavior: "smooth";
 });
